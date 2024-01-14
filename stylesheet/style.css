@@ -99,6 +99,19 @@ main{
     color: #FF900E;
     font-weight: 700px;
 }
+
+/*facts section*/
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+}
+
+
 /*responsive media queries*/
 /*mobile devices*/
 @media screen and (max-width: 576px) {
